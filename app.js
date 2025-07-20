@@ -12,4 +12,4 @@ app.use(express.urlencoded({ extended : true }))
 const routes = require('./server/routes/movieRoutes.js')
 app.use('/', routes);
 
-app.listen(port, () => console.log(`listening on port ${PORT}`))
+app.listen(port, () => console.log(`listening on port ${port}`))
